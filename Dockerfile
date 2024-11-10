@@ -11,4 +11,4 @@ COPY holamundo.java  /app/holamundo.java
 RUN javac holamundo.java
 
 # Define el comando para ejecutar el programa
-CMD ["java", "holamundo.php"]
+CMD ["java", "holamundo.java"]
